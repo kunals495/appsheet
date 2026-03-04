@@ -12,8 +12,8 @@ const RETRY_DELAY = 2000; // 2 seconds
 
 // AppSheet Configuration (Replace with your actual values)
 const APPSHEET_CONFIG = {
-  APP_ID: '072fef0b-2c45-4505-920d-9d3b523aaa94',
-  APP_KEY: 'V2-R4Vh3-psP80-ndzQx-2E6QE-pHJ1K-Y3I56-yJSAk-OYBHc',
+  APP_ID: '4457f822-c19e-41a7-8789-948186d4a4de',
+  APP_KEY: 'V2-sWnep-IOv7C-E5H7a-j9Xwv-vDyM0-klGZM-PFQrd-Qc7zE',
   TABLE_NAME: 'Orders', // Your orders table name
   API_URL: 'https://api.appsheet.com/api/v2/apps'
 };
