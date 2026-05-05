@@ -20,8 +20,10 @@ app.use(express.json());
 
 // PostgreSQL connection
 const pool = new Pool({
-  connectionString: 'postgresql://postgres:Kun@lSingh989@db.oydxyuewvqplvzmswvzm.supabase.co:5432/postgres',
-  ssl: process.env.NODE_ENV === 'production' ? { rejectUnauthorized: false } : false,
+  connectionString: 'postgresql://postgres:YOUR_PASSWORD@db.oydxyuewvqplvzmswvzm.supabase.co:5432/postgres',
+  ssl: {
+    rejectUnauthorized: false
+  }
 });
 
 // Initialize DB
